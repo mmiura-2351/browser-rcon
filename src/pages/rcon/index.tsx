@@ -46,6 +46,7 @@ const RconCommandSender = () => {
           onChange={(e) => setHost(e.target.value)}
           placeholder="IPアドレス"
           className="input input-bordered w-full max-w-xs"
+          style={{ color: 'black' }}
         />
       </div>
       <div className="mb-2">
@@ -56,6 +57,7 @@ const RconCommandSender = () => {
           onChange={(e) => setPort(e.target.value)}
           placeholder="ポート番号"
           className="input input-bordered w-full max-w-xs"
+          style={{ color: 'black' }}
         />
       </div>
       <div className="mb-2">
@@ -66,6 +68,7 @@ const RconCommandSender = () => {
           onChange={(e) => setPassword(e.target.value)}
           placeholder="パスワード"
           className="input input-bordered w-full max-w-xs"
+          style={{ color: 'black' }}
         />
       </div>
       <div className="mb-4">
@@ -76,6 +79,7 @@ const RconCommandSender = () => {
           onChange={(e) => setCommand(e.target.value)}
           placeholder="コマンド"
           className="input input-bordered w-full max-w-xs"
+          style={{ color: 'black' }}
         />
       </div>
       <button onClick={sendRconCommand} className="btn btn-primary">
